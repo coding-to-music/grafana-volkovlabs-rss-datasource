@@ -59,6 +59,27 @@ For the latter, use the following command.
 grafana-cli plugins install volkovlabs-rss-datasource
 ```
 
+```bash
+docker-compose exec grafana grafana-cli plugins install volkovlabs-rss-datasource
+```
+
+Output
+
+```
+Error: ✗ failed to extract plugin archive: unlinkat /var/lib/grafana/plugins/volkovlabs-rss-datasource: device or resource busy
+```
+
+## To list installed plugins, run the following command:
+
+```
+docker-compose exec grafana grafana-cli plugins ls
+```
+
+```
+installed plugins:
+marcusolsson-dynamictext-panel @ 3.1.0
+```
+
 ## Features
 
 - Supports RSS 2.0, RSS 1.0 and Atom.

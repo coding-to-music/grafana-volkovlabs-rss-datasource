@@ -1,3 +1,34 @@
+# grafana-volkovlabs-rss-datasource
+
+# 🚀 RSS/Atom Data Source for @grafana 🚀
+
+
+https://github.com/coding-to-music/grafana-volkovlabs-rss-datasource
+
+From / By https://github.com/volkovlabs/volkovlabs-rss-datasource
+
+
+## Environment variables:
+
+```java
+```
+
+## user interfaces:
+
+- Grafana http://localhost:3000
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/grafana-volkovlabs-rss-datasource.git
+git push -u origin main
+```
+
 # RSS/Atom Data Source for Grafana
 
 ![Dashboard](https://raw.githubusercontent.com/VolkovLabs/volkovlabs-rss-datasource/main/src/img/dashboard.png)

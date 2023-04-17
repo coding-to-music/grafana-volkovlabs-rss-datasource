@@ -11,7 +11,6 @@ From / By https://github.com/volkovlabs/volkovlabs-rss-datasource
 ## Environment variables:
 
 ```java
-
 ```
 
 ## user interfaces:
